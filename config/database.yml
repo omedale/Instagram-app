@@ -12,7 +12,7 @@ default: &default
 
 development:
   <<: *default
-  database: ddevelopment_instagram
+  database: development_instagram
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
