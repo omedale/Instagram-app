@@ -63,6 +63,10 @@ Rails.application.configure do
   # config.active_job.queue_adapter     = :resque
   # config.active_job.queue_name_prefix = "instagram_#{Rails.env}"
 
+  # Set up the default URL options for the Devise mailer
+  # :host should be set to the actual host of your application.
+  # config.action_mailer.default_url_options = { host: ‘localhost’, port: 3000 }
+
   config.action_mailer.perform_caching = false
 
   # Ignore bad email addresses and do not raise email delivery errors.
